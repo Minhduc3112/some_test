@@ -13,7 +13,10 @@ namespace some_test
                 int n = int.Parse(cases);
                 switch (n)
                 {
-                    case 1: Console.WriteLine("Minh duc");break;
+                    case 1:
+                        ListEmployee list = new ListEmployee();
+                        list.InputEmployee();
+                        break;
                     case 2: Console.WriteLine("Minh 2"); break;
                     case 3: Console.WriteLine("Minh 3"); break;
                     case 4: Console.WriteLine("Minh 4"); break;
